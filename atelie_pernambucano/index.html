@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width", initial-scale="1.0">
+ <title>Cadastre-se - Ateliê Pernambucano</title>
+ <!--Importação de biblioteca chamada FontAwesome para usar ícone de telefone, cadeado e etc.-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!--Nessa etapa agora estou ligando o HTML ao arquivo de estilos CSS-->
+<link rel="stylesheet" href="style.css"
+</head>
+<body>
+
+    <!---Cabeçalho do site-->
+    <header class="header">
+        <h1>Ateliê Pernambucano</h1>
+        <p>Clube de fãs da cultura pernambucana!</p>
+        <p>Inscrição gratuita , benefícios exclusivos</p>
+    </header>
+
+    <!---Formulário de cadastro-->
+    <main class="container">
+    <!--Tag de <form> onde agrupo todos os campos do cadastro-->
+    <form class="formulario">
+    <h2>Cadastre-se:</h2>
+    
+        <!--Campo 1 - Nome Completo-->
+        <div class="input-grupo">
+            <input type="text" placeholder="Nome Completo" required>
+        </div>
+        
+        <!--Campo 2 - Telefone (com ícone)-->
+        <div class="input-grupo"
+            <i class="fa-solid fa-phone"></i>
+            <input type="tel" placeholder="Telefone" required>
+        </div>
+         
+        <!--Campo 3- Email + Ícone-->
+        <div class="input-grupo">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="E-mail" required>
+            </div>
+
+        <!--Campo 4 - Senha do usuário-->
+        <div class="input-grupo">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" placeholder="Senha" required>
+        </div>
+
+        <!--Campo 5 - Confirmar a senha do usuário-->
+        <div class="input-grupo">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" placeholder="Confirmar Senha" required>
+        </div>
+        
+        <!--Botão de enviar-->
+        <button type="submit" class="btn=Cadastrar">Cadastrar</button>
+    </form>
+    </main>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
